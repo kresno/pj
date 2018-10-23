@@ -1,0 +1,27 @@
+pilih sektor->pilih kawasan->
+masuk program->sasaran strategis kabupaten(IKU)->nama kegiatan->lokasi(desa,kecamatan)->outputnya->pagu
+
+laporan untuk kawasan geopark sektor pariwisata (berupa tabel usulan kegiatan setiap sektor)
+
+sebelum masuk ke ayo, 
+daftar user, baru login ke bagian navbar
+baru masukin usulan kegiatannya
+
+
+tampilan kolaborasi
+lebih mudah tercapai di bidang ekonomi sumber daya alam
+
+tampilan akselesari
+melalui pendekatan Tematik, Holistik, Integratif, dan Spatial (THIS)
+
+
+section pariwisata di keataskan, data geopark di optimalkan
+setiap section ada profil dan data setor
+
+
+
+link ESDA
+Disnak ->disnak.sukabumikab.go.id
+DPESDM -> dpesdm.sukabumikab.go.id
+Dispar -> pariwisatasukabumikab.com
+Perikanan -> perikanan.sukabumikab.go.id

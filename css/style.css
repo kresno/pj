@@ -305,10 +305,12 @@ h1, h2, h3, h4, h5, h6, figure {
       .video-hero .display-t {
         height: 600px; } }
     .video-hero .display-t.display-t2 {
-      height: 500px; }
+      height: 300px; }
   .video-hero .display-tc {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding-top: 5em;
+    }
     .video-hero .display-tc .holder {
       color: #fff;
       font-family: "Poppins", Arial, sans-serif;
@@ -1074,7 +1076,7 @@ input[type="text"] {
 #colorlib-footer {
   background: #303133;
   color: rgba(255, 255, 255, 0.6) !important;
-  padding-top: 6em; }
+  }
   #colorlib-footer .colorlib-widget p {
     font-size: 13px; }
   @media screen and (max-width: 768px) {
