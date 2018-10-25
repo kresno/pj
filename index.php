@@ -58,23 +58,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html">eSinergi</a></div>
+							<div id="colorlib-logo"><a href="index.php">eSinergi</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li class="has-dropdown">
-									<a href="work.html">Works</a>
-									<ul class="dropdown">
-										<li><a href="work-grid.html">Works grid with text</a></li>
-										<li><a href="work-grid-without-text.html">Works grid w/o text</a></li>
-									</ul>
-								</li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="shop.html">Shop</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="login.php">Login</a></li>
 							</ul>
 						</div>
 					</div>
@@ -92,7 +80,7 @@
 							<div class="animate-box">
 								<h2>Mari Berpartisipasi dalam Pembangunan</h2>
 								<p>Menuju Kabupaten Sukabumi yang Lebih Baik</p>
-								<p><a href="partisipasi.html" class="btn btn-primary btn-lg btn-custom">Ayo !</a></p>
+								<p><a href="register.php" class="btn btn-primary btn-lg btn-custom">Ayo !</a></p>
 							</div>
 						</div>
 					</div>
@@ -107,21 +95,21 @@
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/dashboard_full_1.jpg" alt="">
+									<img class="img-responsive" src="images/capaian/dashboard_full1.jpg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/dashboard_full_2.jpg" alt="">
+									<img class="img-responsive" src="images/capaian/dashboard_full2.jpg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/dashboard_full_3.jpg" alt="">
+									<img class="img-responsive" src="images/capaian/dashboard_full3.jpg" alt="">
 								</div>
 							</div>
 						</div>
@@ -145,7 +133,7 @@
 							</span>
 							<div class="desc">
 								<h3>Kolaborasi</h3>
-								<p>Wujud Kolaborasi Antar Sektor Sehingga Tujuan Pembangunan Lebih Mudah Tercapai</p>
+								<p>Wujud Kolaborasi Antar Sektor Sehingga Tujuan Pembangunan Lebih Mudah Tercapai di bidang ekonomi sumber daya alam</p>
 							</div>
 						</div>
 					</div>
@@ -156,7 +144,7 @@
 							</span>
 							<div class="desc">
 								<h3>Akselerasi</h3>
-								<p>Terjaganya kesesuaian dan akselerasi pembangunan sektor ekonomi dan sumber daya alam dengan RPJMD Kabupaten Sukabumi</p>
+								<p>Terjaganya kesesuaian dan akselerasi pembangunan sektor ekonomi dan sumber daya alam dengan RPJMD Kabupaten Sukabumi melalui pendekatan Tematik, Holistik, Integratif, dan Spatial (THIS)</p>
 							</div>
 						</div>
 					</div>
@@ -198,8 +186,84 @@
 						<div class="work-flex">
 							<div class="half animate-box">
 								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/pariwisata-1.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Potensi Sektor Pariwisata</a></h2>
+												<p>Sektor pariwisata menjadi sektor yang juga potensial untuk dikembangkan di Kabupaten Sukabumi.Terdapat 50 obyek wisata yang memberikan dukungan terhadap perekonomian Kabupaten Sukabumi</p>
+												<p>Jumlah kunjungan wisatawan ke Kabupaten Sukabumi setiap tahunnya mengalami peningkatan. Pada tahun 2014 arus kunjungan wisatawan domestik ke obyek wisata meningkat 6,93% dibandingkan tahun sebelumnya. Sementara untuk kunjungan wisatawan asing pada tahun 2014 mengalami kenaikan sebesar 51,26%. </p>
+												<a download href="download/pariwisata.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
 									<div class="col-md-12 col-md-push-12 no-gutters">
-										<a href="#" class="work-img" style="background-image: url(images/work-1.jpg);"></a>
+										<a href="#" class="work-img" style="background-image: url(images/kelautan-1.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Potensi Sektor Kelautan dan Perikanan</a></h2>
+												<p>Potensi sumber daya pesisir dan kelautan yang ada antara lain : ikan laut, terumbu karang, hutan mangrove, rumput laut, penyu, bahan tambang dan mineral. Potensi tersebut sampai saat ini telah dimanfaatkan untuk pariwisata dan juga penangkapan ikan, terlebih Kecamatan Palabuhanratu, Kabupaten Sukabumi telah ditetapkan sebagai kawasan minapolitan melalui Peraturan Menteri Kelautan dan Perikanan Nomor 41 Tahun 2009.</p>
+												<a download href="download/kelautan.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/industri-1.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Potensi Sektor Industri</a></h2>
+												<p>Berdasarkan Pasal 99 No 22 tahun 2012 tentang Rencana Tata Ruang Wilayah Kabupaten Sukabumi. Terdapat 7 Kawasan Industri yang ada di Kabupaten Sukabumi dengan kegiatan industri yang berbeda. Selain itu, Industri Kecil Menengah (IKM) di Kabupaten Sukabumi ternyata juga menunjukan perkembangan yang cukup pesat, yang didukung oleh ketersediaan bahan baku yang melimpah dan dukungan sumber daya manusia yang kreatif.</p>
+												<a download href="download/industri.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-push-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/pertanian-1.jpg);"></a>
 									</div>
 								</div>
 							</div>
@@ -211,6 +275,7 @@
 												<h2><a href="#">Potensi Sektor Pertanian</a></h2>
 												<p>Sektor pertanian merupakan salah satu sektor yang memberikan potensi cukup besar terhadap perekonomian masyarakat Kabupaten Sukabumi. Potensi pertanian di Kabupaten Sukabumi sebagian besar pada komoditas tanaman pangan yang meliputi: Padi , Jagung , Kedelai dan Ubi kayu.</p>
 												<p>Komoditas pertanian lainnya yang juga merupakan unggulan Kabupaten Sukabumi adalah komoditas hortikultura seperti : Bunga, Daun potong, Sayuran, Buah-buahan dan biofarmaka. </p>
+												<a download href="download/pertanian.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
 											</div>
 										</div>
 									</div>
@@ -224,7 +289,7 @@
 							<div class="half animate-box">
 								<div class="row no-gutters">
 									<div class="col-md-12 no-gutters">
-										<a href="#" class="work-img" style="background-image: url(images/work-2.jpg);"></a>
+										<a href="#" class="work-img" style="background-image: url(images/peternakan-1.jpg);"></a>
 									</div>
 								</div>
 							</div>
@@ -235,6 +300,7 @@
 											<div class="display-tc">
 												<h2><a href="#">Potensi Sektor Peternakan</a></h2>
 												<p>Peternakan merupakan salah satu sektor yang juga sangat potensial untuk dikembangkan di Kabupaten Sukabumi. Dukungan wilayah daratan yang cukup luas sangat cocok untuk pengembangan ternak, utamanya ternak unggas dan ruminansia. Ternak unggas dan ruminansia sapi perah tersebar di wilayah Utara Kabupaten Sukabumi, sedangkan sapi potong dan kerbau tersebar di Selatan Kabupaten Sukabumi. Populasi ternak sebagian besar mengalami peningkatan setiap tahunnya.</p>
+												<a download href="download/peternakan.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
 											</div>
 										</div>
 									</div>
@@ -248,7 +314,7 @@
 							<div class="half animate-box">
 								<div class="row no-gutters">
 									<div class="col-md-12 col-md-push-12 no-gutters">
-										<a href="#" class="work-img" style="background-image: url(images/work-3.jpg);"></a>
+										<a href="#" class="work-img" style="background-image: url(images/perkebunan-1.jpg);"></a>
 									</div>
 								</div>
 							</div>
@@ -260,79 +326,7 @@
 												<h2><a href="#">Potensi Sektor Perkebunan</a></h2>
 												<p>Sektor perkebunan sangat potensial untuk dikembangkan di Kabupaten Sukabumi. Sektor ini berkontribusi tidak hanya dari sisi <b> ekonomi </b> namun juga dari sisi <b>ekologi</b> dan <b> sosial budaya. </b></p>
 												<p>Pemanfaatan lahan untuk perkebunan mencapai 22% dari total luas daratan di Kabupaten Sukabumi. Pengelolaan perkebunan meliputi Perkebunan Negara seluas 21.165 Ha, Perkebunan Besar Swasta seluas 32.823 Ha dan perkebunan rakyat seluas 35.716 Ha</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="work-flex">
-							<div class="half animate-box">
-								<div class="row no-gutters">
-									<div class="col-md-12 no-gutters">
-										<a href="#" class="work-img" style="background-image: url(images/work-4.jpg);"></a>
-									</div>
-								</div>
-							</div>
-							<div class="half animate-box">
-								<div class="row no-gutters">
-									<div class="col-md-12 no-gutters">
-										<div class="display-t desc">
-											<div class="display-tc">
-												<h2><a href="#">Potensi Sektor Pariwisata</a></h2>
-												<p>Sektor pariwisata menjadi sektor yang juga potensial untuk dikembangkan di Kabupaten Sukabumi.Terdapat 50 obyek wisata yang memberikan dukungan terhadap perekonomian Kabupaten Sukabumi, meliputi 34 wisata alam, 8 wisata buatan dan 8 wisata minat khusus</p>
-												<p>Jumlah kunjungan wisatawan ke Kabupaten Sukabumi setiap tahunnya mengalami peningkatan. Pada tahun 2014 arus kunjungan wisatawan domestik ke obyek wisata meningkat 6,93% dibandingkan tahun sebelumnya. Sementara untuk kunjungan wisatawan asing pada tahun 2014 mengalami kenaikan sebesar 51,26%. </p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="work-flex">
-							<div class="half animate-box">
-								<div class="row no-gutters">
-									<div class="col-md-12 col-md-push-12 no-gutters">
-										<a href="#" class="work-img" style="background-image: url(images/work-3.jpg);"></a>
-									</div>
-								</div>
-							</div>
-							<div class="half animate-box">
-								<div class="row no-gutters">
-									<div class="col-md-12 col-md-pull-12 no-gutters">
-										<div class="display-t desc">
-											<div class="display-tc">
-												<h2><a href="#">Potensi Sektor Kelautan dan Perikanan</a></h2>
-												<p>Letak Geografis Kabupaten Sukabumi yang berbatasan langsung di sebelah Selatan dengan Samudera Indonesia menyebabkan tingginya potensi sumber daya pesisir, perikanan dan kelautan. Potensi sumber daya pesisir dan kelautan yang ada antara lain : ikan laut, terumbu karang, hutan mangrove, rumput laut, penyu, bahan tambang dan mineral. Potensi tersebut sampai saat ini telah dimanfaatkan untuk pariwisata dan juga penangkapan ikan, terlebih Kecamatan Palabuhanratu, Kabupaten Sukabumi telah ditetapkan sebagai kawasan minapolitan melalui Peraturan Menteri Kelautan dan Perikanan Nomor 41 Tahun 2009.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="work-flex">
-							<div class="half animate-box">
-								<div class="row no-gutters">
-									<div class="col-md-12 no-gutters">
-										<a href="#" class="work-img" style="background-image: url(images/work-4.jpg);"></a>
-									</div>
-								</div>
-							</div>
-							<div class="half animate-box">
-								<div class="row no-gutters">
-									<div class="col-md-12 no-gutters">
-										<div class="display-t desc">
-											<div class="display-tc">
-												<h2><a href="#">Potensi Sektor Industri</a></h2>
-												<p>Berdasarkan Pasal 99 No 22 tahun 2012 tentang Rencana Tata Ruang Wilayah Kabupaten Sukabumi. Terdapat 7 Kawasan Industri yang ada di Kabupaten Sukabumi dengan kegiatan industri yang berbeda. Selain itu, Industri Kecil Menengah (IKM) di Kabupaten Sukabumi ternyata juga menunjukan perkembangan yang cukup pesat, yang didukung oleh ketersediaan bahan baku yang melimpah dan dukungan sumber daya manusia yang kreatif.</p>
+												<a download href="download/perkebunan.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
 											</div>
 										</div>
 									</div>
@@ -349,14 +343,16 @@
 				<h3 style="text-align:center;border-bottom:solid 1px #eee">Link Dinas</h3>
 					<div class="row">
 						<div class="customer-logos">
-							<div class="slide"><a href="http://disdik.sukabumikab.go.id"><img src="images/logo/DKP.png"></a></div>
-							<div class="slide"><a href="disdik.sukabumikab.go.id"><img src="images/logo/DKP.png"></a></div>
-							<div class="slide"><a href="disdik.sukabumikab.go.id"><img src="images/logo/DKP.png"></a></div>
-							<div class="slide"><a href="disdik.sukabumikab.go.id"><img src="images/logo/DKP.png"></a></div>
-							<div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
-							<div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
-							<div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
-							<div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
+							<div class="slide"><a href="http://kelautan.sukabumikab.go.id"><img src="images/logo/dislutkan.png"></a></div>
+							<div class="slide"><a href="http://disnak.sukabumikab.go.id"><img src="images/logo/disnak.png"></a></div>
+							<div class="slide"><a href="http://disnakertrans.sukabumikab.go.id"><img src="images/logo/disnakertrans.png"></a></div>
+							<div class="slide"><a href="https://sukabumikab.go.id/portal/opd/dinas-pariwisata.html"><img src="images/logo/dispar.png"></a></div>
+							<div class="slide"><a href="https://sukabumikab.go.id/portal/opd/dinas-pertanian.html"><img src="images/logo/distan.png"></a></div>
+							<div class="slide"><a href="http://dkp.sukabumikab.go.id"><img src="images/logo/dkp.png"></a></div>
+							<div class="slide"><a href="http://blhkabsukabumi.wordpress.com"><img src="images/logo/dlh.png"></a></div>
+							<div class="slide"><a href="http://dpesdm.sukabumikab.go.id"><img src="images/logo/dpesdm.png"></a></div>
+							<div class="slide"><a href="http://dpkukmkabsukabumi.com"><img src="images/logo/dpkukm.png"></a></div>
+							<div class="slide"><a href="http://investasi.sukabumikab.go.id"><img src="images/logo/dpmptsp.png"></a></div>
 						</div>
 					</div>
 				</div>
