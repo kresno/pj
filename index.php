@@ -199,7 +199,8 @@
 												<h2><a href="#">Potensi Sektor Pariwisata</a></h2>
 												<p>Sektor pariwisata menjadi sektor yang juga potensial untuk dikembangkan di Kabupaten Sukabumi.Terdapat 50 obyek wisata yang memberikan dukungan terhadap perekonomian Kabupaten Sukabumi</p>
 												<p>Jumlah kunjungan wisatawan ke Kabupaten Sukabumi setiap tahunnya mengalami peningkatan. Pada tahun 2014 arus kunjungan wisatawan domestik ke obyek wisata meningkat 6,93% dibandingkan tahun sebelumnya. Sementara untuk kunjungan wisatawan asing pada tahun 2014 mengalami kenaikan sebesar 51,26%. </p>
-												<a download href="download/pariwisata.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+												<a download href="download/pariwisata.pdf" class="btn btn-success" download>Download Dokumen Potensi</a> 
+												<a href="pariwisata.php" class="btn btn-warning">Lihat Detail </a>
 											</div>
 										</div>
 									</div>
