@@ -9,12 +9,11 @@ $password = mysqli_real_escape_string($con, $_POST['password']);
 
 $password_hash = md5($password);
 
-
-$sql="INSERT INTO users (fname, lname, email, telp, password, is_active) VALUES ('$fname', '$lname', '$email', '$telp', '$password_hash', '0')";
+$sql="INSERT INTO users (fname, lname, email, telp, password, is_active, role_id) VALUES ('$fname', '$lname', '$email', '$telp', '$password_hash', '0', '3')";
 
 if (!mysqli_query($con,$sql)) {
     die('Error: ' . mysqli_error($con));
-} else{
+}else{
     echo "<script>alert('Aktivasi Akun Akan dilakukan 1x24 jam, Atau Hubungi Admin'); window.location.href='login.php';</script>";
 }
 
