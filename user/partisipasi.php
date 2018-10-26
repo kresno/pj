@@ -169,6 +169,32 @@
                             </div>
 
                             <div class="row form-group">
+								<div class="col-md-6">
+                                <!-- <label for="email">Program</label> -->
+                                    <select name="kecamatan" id="kecamatan" class="form-control">
+                                        <option> -- Pilih Kecamatan -- </option>
+                                        <option value="1">Kecamatan 1</option>
+                                        <option value="2">Kecamatan 2</option>
+                                        <option value="3">Kecamatan 3</option>
+                                        <option value="4">Kecamatan 4</option>
+                                        <option value="5">Kecamatan 5</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                <!-- <label for="email">Program</label> -->
+                                    <select name="desa" id="desa" class="form-control">
+                                        <option> -- Pilih Desa -- </option>
+                                        <option value="1">Desa 1</option>
+                                        <option value="2">Desa 2</option>
+                                        <option value="3">Desa 3</option>
+                                        <option value="4">Desa 4</option>
+                                        <option value="5">Desa 5</option>
+                                    </select>
+								</div>
+                            </div>
+
+                            <div class="row form-group">
 								<div class="col-md-12">
                                 <!-- <label for="email">Program</label> -->
                                     <input type="text" class="form-control" name="output" placeholder="Output Kegiatan">
