@@ -63,7 +63,7 @@
 						<div class="col-md-10 text-right menu-1">
                             <ul>
                                 <li class="has-dropdown">
-                                    <a href="#"><?php echo "testing" ?></a>
+                                    <a href="#"><?php echo $_SESSION['fname']; ?></a>
                                     <ul class="dropdown">
                                         <li><a href="../logout.php">Logout</a></li>
                                     </ul>
