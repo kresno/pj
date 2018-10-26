@@ -61,12 +61,15 @@
 							<div id="colorlib-logo"><a href="index.php">eSinergi</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
-                            <li class="has-dropdown">
-                                <a href="#"><?php echo $_SESSION['fname']; ?></a>
-                                <ul class="dropdown">
-                                    <li><a href="../logout.php">Logout</a></li>
-                                </ul>
-                            </li>
+                            <ul>
+                                <li class="has-dropdown">
+                                    <a href="#"><?php echo "testing" ?></a>
+                                    <ul class="dropdown">
+                                        <li><a href="../logout.php">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
 						</div>
 					</div>
 				</div>

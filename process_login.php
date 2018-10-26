@@ -16,17 +16,19 @@ if($result = mysqli_query($con, $sql)){
         $_SESSION['fname'] = $row['fname'];
         $_SESSION['email'] = $row['email'];
         
-        if($row['is_active']== 0){
-            echo "<script>alert('Akun Belum di Aktivasi'); window.location.href='login.php';</script>";
-        }else{
-            if($row['role_id'] == 1){
-                echo "<script>alert('Login Berhasil'); window.location.href='admin/index.php';</script>";
-            } else if($row['role_id'] == 2){
-                echo "<script>alert('Login Berhasil'); window.location.href='dinas/index.php';</script>";
-            } else {
-                echo "<script>alert('Login Berhasil'); window.location.href='user/partisipasi.php';</script>";
-            }
-        }
+        echo $_SESSION['fname'];
+
+        // if($row['is_active']== 0){
+        //     echo "<script>alert('Akun Belum di Aktivasi'); window.location.href='login.php';</script>";
+        // }else{
+        //     if($row['role_id'] == 1){
+        //         echo "<script>alert('Login Berhasil'); window.location.href='admin/index.php';</script>";
+        //     } else if($row['role_id'] == 2){
+        //         echo "<script>alert('Login Berhasil'); window.location.href='dinas/index.php';</script>";
+        //     } else {
+        //         echo "<script>alert('Login Berhasil'); window.location.href='user/partisipasi.php';</script>";
+        //     }
+        // }
     }
     else{
         echo "<script>alert('Username dan Password tidak ditemukan'); window.location.href='login.php';</script>";
