@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>unapp Template</title>
+	<title>eSinergi</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -90,7 +90,7 @@
 				<div class="row">
 					<div class="col-md-8 animate-box">
 						<h2>Form Register</h2>
-						<form action="process_register.php">
+						<form action="process_register.php" method="POST">
 							<div class="row form-group">
 								<div class="col-md-6">
 									<!-- <label for="fname">First Name</label> -->

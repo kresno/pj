@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>unapp Template</title>
+	<title>eSinergi</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -80,7 +80,7 @@
 							<div class="animate-box">
 								<h2>Mari Berpartisipasi dalam Pembangunan</h2>
 								<p>Menuju Kabupaten Sukabumi yang Lebih Baik</p>
-								<p><a href="register.php" class="btn btn-primary btn-lg btn-custom">Ayo !</a></p>
+								<p><a href="login.php" class="btn btn-primary btn-lg btn-custom">Ayo !</a></p>
 							</div>
 						</div>
 					</div>
