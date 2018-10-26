@@ -112,7 +112,7 @@
                             </div>
 
 							<div class="form-group">
-								<input type="submit" value="Register" class="btn btn-primary">
+								<input type="submit" value="Login" class="btn btn-primary">
 							</div>
 						</form>		
 					</div>

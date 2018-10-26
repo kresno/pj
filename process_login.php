@@ -20,11 +20,11 @@ if($result = mysqli_query($con, $sql)){
             echo "<script>alert('Akun Belum di Aktivasi'); window.location.href='login.php';</script>";
         }else{
             if($row['role_id'] == 1){
-                echo 'asd';
-                header('Location: admin/index.php');
+                echo "<script>alert('Login Berhasil'); window.location.href='admin/index.php';</script>";
             } else if($row['role_id'] == 2){
-                echo 'asd_asdas';
-                header('Location: bidang/index.php');
+                echo "<script>alert('Login Berhasil'); window.location.href='dinas/index.php';</script>";
+            } else {
+                echo "<script>alert('Login Berhasil'); window.location.href='user/partisipasi.php';</script>";
             }
         }
     }

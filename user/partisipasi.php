@@ -61,9 +61,12 @@
 							<div id="colorlib-logo"><a href="index.php">eSinergi</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
-							<ul>
-								<li><a href="login.php">Login</a></li>
-							</ul>
+                            <li class="has-dropdown">
+                                <a href="#"><?php echo $_SESSION['fname']; ?></a>
+                                <ul class="dropdown">
+                                    <li><a href="../logout.php">Logout</a></li>
+                                </ul>
+                            </li>
 						</div>
 					</div>
 				</div>
@@ -88,13 +91,14 @@
 		<div id="colorlib-contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 animate-box">
-						<h2>Form Login</h2>
-						<form action="process_partisipasi.php" method="POST">
+					<div class="col-md-8 animate-box">
+						<h2>Form Partisipasi</h2>
+						<form action="#" method="POST">
 							<div class="row form-group">
-								<div class="col-md-12 text-center">
-									<label for="email">Sektor</label>
+								<div class="col-md-12 ">
+									<!-- <label for="email">Sektor</label> -->
                                     <select name="sektor" id="sektor" class="form-control">
+                                        <option> -- Pilih Sektor -- </option>
                                         <option value="1">Sektor Pariwisata</option>
                                         <option value="2">Sektor Industri</option>
                                         <option value="3">Sektor Kelautan</option>
@@ -106,9 +110,10 @@
                             </div>
                             
                             <div class="row form-group">
-								<div class="col-md-12  text-center">
-                                <label for="email">Kawasan</label>
+								<div class="col-md-12">
+                                <!-- <label for="email">Kawasan</label> -->
                                     <select name="kawasan" id="kawasan" class="form-control">
+                                        <option> -- Pilih Kawasan -- </option>
                                         <option value="1">Kawasan Geopark</option>
                                         <option value="2">Kawasan Agropolitan</option>
                                         <option value="3">Kawasan Minapolitan</option>
@@ -117,11 +122,54 @@
                                     </select>
 								</div>
                             </div>
+
+                            <div class="row form-group">
+								<div class="col-md-12">
+                                <!-- <label for="email">Program</label> -->
+                                    <select name="program" id="program" class="form-control">
+                                        <option> -- Pilih Program -- </option>
+                                        <option value="1">Program Peningkatan Ketahanan Pangan</option>
+                                        <option value="2">Program pengembangan wilayah Transmigrasi</option>
+                                        <option value="3">Program Pengembangan Industri Rumah Tangga Kecil Menengah</option>
+                                        <option value="4">Program Peningkatan Promosi dan Kerjasama Investasi</option>
+                                        <option value="5">Program Peningkatan Iklim Investasi dan Realisasi Investasi</option>
+                                    </select>
+								</div>
+                            </div>
+
+                            <div class="row form-group">
+								<div class="col-md-12">
+                                <!-- <label for="email">Program</label> -->
+                                    <select name="sasaran" id="sasaran" class="form-control">
+                                        <option> -- Pilih Sasaran -- </option>
+                                        <option value="1">Sasaran 1</option>
+                                        <option value="2">Sasaran 2</option>
+                                        <option value="3">Sasaran 3</option>
+                                        <option value="4">Sasaran 4</option>
+                                        <option value="5">Sasaran 5</option>
+                                    </select>
+								</div>
+                            </div>
                             
                             <div class="row form-group">
-                                <div class="col-md-12">
-                                    <a href="register.php">Belum Punya Akun? Daftar disini</a>
-                                </div>
+								<div class="col-md-12">
+                                <!-- <label for="email">Program</label> -->
+                                    <select name="indikator" id="indikator" class="form-control">
+                                        <option> -- Pilih Indikator -- </option>
+                                        <option value="1">Indikator 1</option>
+                                        <option value="2">Indikator 2</option>
+                                        <option value="3">Indikator 3</option>
+                                        <option value="4">Indikator 4</option>
+                                        <option value="5">Indikator 5</option>
+                                    </select>
+								</div>
+                            </div>
+
+                            <div class="row form-group">
+								<div class="col-md-12">
+                                <!-- <label for="email">Program</label> -->
+                                    <input type="text" class="form-control" name="output" placeholder="Output Kegiatan">
+								</div>
                             </div>
 
 							<div class="form-group">
