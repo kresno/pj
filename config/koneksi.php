@@ -1,12 +1,12 @@
 <?php
 $servername = "localhost";
-// $username = "ruangaci";
-// $password = "085310526076atisser221292";
-// $dbname = "ruangaci_pj";
+$username = "ruangaci";
+$password = "085310526076atisser221292";
+$dbname = "ruangaci_pj";
 
-$username = "root";
-$password = "";
-$dbname = "pj";
+// $username = "root";
+// $password = "";
+// $dbname = "pj";
 
 
 // Create connection
