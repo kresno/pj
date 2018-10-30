@@ -103,7 +103,7 @@ include('../config/koneksi.php');
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 animate-box">
-						<h2>Form Partisipasi</h2>
+						<h2>Form Sinergi</h2>
 						<form action="submitpartisipasi.php" method="POST">
 							<div class="row form-group">
 								<div class="col-md-12 ">
