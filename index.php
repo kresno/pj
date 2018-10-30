@@ -311,6 +311,7 @@
 												<h2><a href="#">Potensi Sektor Peternakan</a></h2>
 												<p>Peternakan merupakan salah satu sektor yang juga sangat potensial untuk dikembangkan di Kabupaten Sukabumi. Dukungan wilayah daratan yang cukup luas sangat cocok untuk pengembangan ternak, utamanya ternak unggas dan ruminansia. Ternak unggas dan ruminansia sapi perah tersebar di wilayah Utara Kabupaten Sukabumi, sedangkan sapi potong dan kerbau tersebar di Selatan Kabupaten Sukabumi. Populasi ternak sebagian besar mengalami peningkatan setiap tahunnya.</p>
 												<a download href="download/peternakan.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+												<a href="pertanian.php" class="btn btn-warning">Lihat Detail </a>
 											</div>
 										</div>
 									</div>
