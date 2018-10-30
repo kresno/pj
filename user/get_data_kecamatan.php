@@ -11,10 +11,10 @@ if(!empty($_GET["kecamatan_id"])){
         if(mysqli_num_rows($result) > 0){
             while($row= mysqli_fetch_array($result)){
                 $id = $row['id'];
-                $name = $row['name'];
+                $name_desa = $row['name_desa'];
 
                 $return_arr[] = array("id" => $id,
-                    "name" => $name);
+                    "name_desa" => $name_desa);
             }
             echo json_encode($return_arr);
         }

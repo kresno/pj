@@ -11,10 +11,10 @@ if(!empty($_GET["sasaran_id"])){
         if(mysqli_num_rows($result) > 0){
             while($row= mysqli_fetch_array($result)){
                 $id = $row['id'];
-                $nama = $row['nama'];
+                $nama_indikator = $row['nama_indikator'];
 
                 $return_arr[] = array("id" => $id,
-                    "nama" => $nama);
+                    "nama_indikator" => $nama_indikator);
             }
             echo json_encode($return_arr);
         }

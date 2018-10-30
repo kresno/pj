@@ -116,7 +116,7 @@ include('../config/koneksi.php');
 											if($result = mysqli_query($con, $sql)){
 												if(mysqli_num_rows($result) > 0){
 													while($row= mysqli_fetch_array($result)){
-														echo "<option value='".$row['id']."'>".$row['nama']."</option>";
+														echo "<option value='".$row['id']."'>".$row['nama_sektor']."</option>";
 													}
 												}
 											}
@@ -190,7 +190,7 @@ include('../config/koneksi.php');
 											if($result = mysqli_query($con, $sql)){
 												if(mysqli_num_rows($result) > 0){
 													while($row= mysqli_fetch_array($result)){
-														echo "<option value='".$row['id']."'>".$row['name']."</option>";
+														echo "<option value='".$row['id']."'>".$row['name_kec']."</option>";
 													}
 												}
 											}
@@ -314,9 +314,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					var len = response.length;
 					for(var i=0; i<len; i++){
 						var id = response[i].id;
-						var nama = response[i].nama;
+						var nama_program = response[i].nama_program;
 
-						var tr_str = '<option id=' + nama + ' value=' + id + '>' + nama + '</option>';
+						var tr_str = '<option id=' + nama_program + ' value=' + id + '>' + nama_program + '</option>';
 						$("#program").append(tr_str);
 					}
 				}
@@ -342,9 +342,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					for(var i=0; i<len; i++){
 						
 						var id = response[i].id;
-						var nama = response[i].nama;
+						var nama_sasaran = response[i].nama_sasaran;
 
-						var tr_str = '<option id=' + nama + ' value=' + id + '>' + nama + '</option>';
+						var tr_str = '<option id=' + nama_sasaran + ' value=' + id + '>' + nama_sasaran + '</option>';
 						$("#sasaran").append(tr_str);
 					}
 				}
@@ -369,9 +369,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					for(var i=0; i<len; i++){
 						
 						var id = response[i].id;
-						var nama = response[i].nama;
+						var nama_indikator = response[i].nama_indikator;
 
-						var tr_str = '<option id=' + nama + ' value=' + id + '>' + nama + '</option>';
+						var tr_str = '<option id=' + nama_indikator + ' value=' + id + '>' + nama_indikator + '</option>';
 						$("#indikator").append(tr_str);
 					}
 				}
@@ -397,9 +397,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					for(var i=0; i<len; i++){
 						
 						var id = response[i].id;
-						var name = response[i].name;
+						var name_desa = response[i].name_desa;
 
-						var tr_str = '<option id=' + name + ' value=' + id + '>' + name + '</option>';
+						var tr_str = '<option id=' + name_desa + ' value=' + id + '>' + name_desa + '</option>';
 						$("#desa").append(tr_str);
 					}
 				}
