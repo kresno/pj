@@ -70,7 +70,7 @@ include('../config/koneksi.php');
 						</div>
 						<div class="col-md-10 text-right menu-1">
                             <ul>
-								<li><a href="#">Dashboard</a></li>
+								<li><a href="dashboard.php">Dashboard</a></li>
                                 <li class="has-dropdown">
                                     <a href="#"><?php session_start(); echo $_SESSION['fname']; ?></a>
                                     <ul class="dropdown">
@@ -211,7 +211,14 @@ include('../config/koneksi.php');
 								</div>
                             </div>
 
-                            <div class="row form-group">
+							<div class="row form-group">
+								<div class="col-md-12">
+                                <!-- <label for="email">Program</label> -->
+                                    <input type="text" class="form-control" name="kegiatan" placeholder="Kegiatan">
+								</div>
+                            </div>
+
+							<div class="row form-group">
 								<div class="row">
                                 <!-- <label for="email">Program</label> -->
 									<div class="col-md-6">

@@ -13,12 +13,13 @@ $output = $_POST['output'];
 $volume = $_POST['target'];
 $satuan = $_POST['satuan'];
 $pagu = $_POST['pagu'];
+$kegiatan = $_POST['kegiatan'];
 session_start();
 $user_id = $_SESSION['user_id'];
 
 
-$sql = "INSERT INTO usulan (user_id, sektor_id, kawasan_id, program_id, sasaran_id, indikator_id, kecamatan_id, desa_id, output, volume, satuan, pagu)
-        VALUES ($user_id, $sektor, $kawasan, $program, $sasaran, $indikator, $kecamatan, $desa, '$output', $volume, '$satuan', $pagu) ";
+$sql = "INSERT INTO usulan (user_id, sektor_id, kawasan_id, program_id, sasaran_id, indikator_id, kecamatan_id, desa_id,kegiatan, output, volume, satuan, pagu)
+        VALUES ($user_id, $sektor, $kawasan, $program, $sasaran, $indikator, $kecamatan, $desa, '$kegiatan', '$output', $volume, '$satuan', $pagu) ";
 
 if (!mysqli_query($con,$sql)) {
     die('Error: ' . mysqli_error($con));
