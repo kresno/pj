@@ -89,56 +89,74 @@
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-md-6 animate-box">
-						<div class="video colorlib-video" style="background-image: url(images/bg/1.jpg);">
-							<a href="https://www.youtube.com/watch?v=5AFDpDmBpxc" class="popup-vimeo"><i class="icon-play3"></i></a>
+						<div class="video colorlib-video" style="background-image: url(images/industri-1.jpg);">
+							<a href="https://www.youtube.com/watch?v=-4Ofh-Wfl_M" class="popup-vimeo"><i class="icon-play3"></i></a>
 							<div class="overlay"></div>
 						</div>
 					</div>
 					<div class="col-md-6 animate-box">
-						<h2>About Geopark Ciletuh Palabuhanratu</h2>
-						<p>Ciletuh - Palabuhanratu UNESCO Global Geopark is located on the island of Java, in the western Sukabumi Regency of Indonesia. The Geopark is located on the border of a tectonically active zone: the subduction zone between the Eurasian plate and the Indo-Australian plate, which continue to converge at 4 mm/year. The area is characterized by a rare geological diversity that can be classified into three zones: the subduction zone uplifted rocks, the Jampang Plateau landscape and the ancient magmatic zone shifting and fore arc evolution. Evidence for a similar subduction process that occurred during the Cretaceous age (145–66 million years ago) is found in the Ciletuh area in the form of rock formations that were deposited within the deep subduction trench.</p>
+						<h2>Potensi Sektor Industri</h2>
+						<p>Berdasarkan Pasal 99 No 22 tahun 2012 tentang Rencana Tata Ruang Wilayah Kabupaten Sukabumi. Terdapat 7 Kawasan Industri yang ada di Kabupaten Sukabumi dengan kegiatan industri yang berbeda. Selain itu, Industri Kecil Menengah (IKM) di Kabupaten Sukabumi ternyata juga menunjukan perkembangan yang cukup pesat, yang didukung oleh ketersediaan bahan baku yang melimpah dan dukungan sumber daya manusia yang kreatif</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                        <h2>Geopark Ciletuh-Palabuhanratu mendapat pengesahan sebagai UGG 2018</h2>
-                        <p>Geopark Ciletuh-Pelabuhanratu mendapat pengesahan sebagai bagian dari jaringan Global Geopark bersama 12 geopark lainnya dalam salah satu sidang komisi di Executive Board Unesco ke 204 di Paris, Perancis pada 14 April 2018.</p>
+                        <h2>Kabupaten ini memiliki aneka macam produk Industri Kecil Menengah yang memiliki nilai jual cukup tinggi di pasaran.</h2>
+                        <p>ersedianya bahan baku yang melimpah dan dukungan potensi sumber daya manusia yang kreatif, menjadikan sektor Industri Kecil Menengah (IKM) di Kabupaten Sukabumi berkembang cukup pesat beberapa tahun belakangan ini.</p>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="colorlib-work">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-1.jpg);"></a>
-							<div class="desc">
-								<h3>Puncak Darma</h3>
-								<p>Spot tertinggi yang berada di kawasan ciletuh, yang langsung menghadap ke laut, dan hamparan sawah.</p>
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-industri2.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Beberapa Kawasan Industri di Kabupaten Sukabumi</a></h2>
+												<p>1. Kawasan industri Ciambar di Kecamatan Ciambar seluas kurang lebih 711 (tujuh ratus sebelas) hektar </p>
+												<p>2. kawasan industri Cikembar di Kecamatan Cikembar seluas kurang lebih 620 (enam ratus dua puluh) hektar </p>
+												<p>3. Kawasan Industri Gunungguruh di Kecamatan Gunungguruh seluas kurang lebih 85 (delapan puluh lima) hektar </p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-2.jpg);"></a>
-							<div class="desc">
-								<h3>Curug Cimarinjung</h3>
-								<p>Curug yang berasal dari aliran sungai cimarinjung, dengan memiliki ketinggian 50m.</p>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-push-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-industri.jpg);"></a>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-3.jpg);"></a>
-							<div class="desc">
-								<h3>Curug Cikanteh</h3>
-								<p>Curug yang berada diatas curug cimarinjung ini memiliki aliran air yang jernih.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-4.jpg);"></a>
-							<div class="desc">
-								<h3>Panenjoan</h3>
-								<p>Titik pandang Panenjoan berada di pinggir jalan, Desa Taman Jaya, dengan ketinggian 300-an mdpl.</p>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Industri Kecil Menengah (IKM)</a></h2>
+												<p>Potensi Industri besar di wilayah Kabupaten Sukabumi berjumlah 121 unit usaha dengan menyerap tenaga kerja sebanyak 30.001 orang dan jumlah sentra industri kecil sebanyak 241 sentra yang tersebar di seluruh wilayah Kabupaten Sukabumi sedangkan untuk potensi Industri Kecil Menengah dan Industri rumah tangga di wilayah Kabupaten Sukabumi sebanyak 18.778 unit usaha dengan menyerap tenaga kerja sebanyak 61.061 orang. </p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

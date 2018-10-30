@@ -259,6 +259,7 @@
 												<h2><a href="#">Potensi Sektor Industri</a></h2>
 												<p>Berdasarkan Pasal 99 No 22 tahun 2012 tentang Rencana Tata Ruang Wilayah Kabupaten Sukabumi. Terdapat 7 Kawasan Industri yang ada di Kabupaten Sukabumi dengan kegiatan industri yang berbeda. Selain itu, Industri Kecil Menengah (IKM) di Kabupaten Sukabumi ternyata juga menunjukan perkembangan yang cukup pesat, yang didukung oleh ketersediaan bahan baku yang melimpah dan dukungan sumber daya manusia yang kreatif.</p>
 												<a download href="download/industri.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+												<a href="industri.php" class="btn btn-warning">Lihat Detail </a>
 											</div>
 										</div>
 									</div>
