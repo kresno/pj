@@ -120,6 +120,27 @@
 								</div>
 							</div>
 						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/capaian/dashboard_full5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/capaian/dashboard_full6.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/capaian/dashboard_full7.jpg" alt="">
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
