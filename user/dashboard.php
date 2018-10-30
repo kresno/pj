@@ -66,7 +66,7 @@ include('../config/koneksi.php');
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.php">eSinergi</a></div>
+							<div id="colorlib-logo"><a href="dashboard.php">eSinergi</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
                             <ul>
