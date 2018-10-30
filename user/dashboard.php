@@ -113,7 +113,7 @@ include('../config/koneksi.php');
                                 join sasaran e on a.sasaran_id=e.id 
                                 join villages f on f.id= a.desa_id
                                 join districts g on g.id=a.kecamatan_id
-                                where user_id=5";
+                                where user_id=$user_id";
 
                         echo "<table class='table table-stripped'>";
                         echo "<thead>";
