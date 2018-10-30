@@ -16,6 +16,7 @@ if($result = mysqli_query($con, $sql)){
         session_start();
         $_SESSION['fname'] = $row['fname'];
         $_SESSION['email'] = $row['email'];
+        $_SESSION['user_id'] = $row['id'];
         
         if($row['is_active']== 0){
             echo "<script>alert('Akun Belum di Aktivasi'); window.location.href='login.php';</script>";

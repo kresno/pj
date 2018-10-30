@@ -80,7 +80,7 @@
 							<div class="animate-box">
 								<h2>Mari Berpartisipasi dalam Pembangunan</h2>
 								<p>Menuju Kabupaten Sukabumi yang Lebih Baik</p>
-								<p><a href="login.php" class="btn btn-primary btn-lg btn-custom">Ayo !</a></p>
+								<p><a href="login.php" class="btn btn-primary btn-lg btn-custom">THIS eSinergi !</a></p>
 							</div>
 						</div>
 					</div>
