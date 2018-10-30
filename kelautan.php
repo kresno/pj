@@ -77,7 +77,7 @@
 					<div class="container">
 						<div class="col-md-12 col-md-offset-0">
 							<div class="animate-box">
-								<h2>Geopark Ciletuh</h2>
+								<h2>Sektor Kelautan dan Perikanan</h2>
 							</div>
 						</div>
 					</div>
@@ -89,56 +89,71 @@
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-md-6 animate-box">
-						<div class="video colorlib-video" style="background-image: url(images/bg/1.jpg);">
-							<a href="https://www.youtube.com/watch?v=5AFDpDmBpxc" class="popup-vimeo"><i class="icon-play3"></i></a>
+						<div class="video colorlib-video" style="background-image: url(images/kelautan-1.jpg);">
 							<div class="overlay"></div>
 						</div>
 					</div>
 					<div class="col-md-6 animate-box">
-						<h2>About Geopark Ciletuh Palabuhanratu</h2>
-						<p>Ciletuh - Palabuhanratu UNESCO Global Geopark is located on the island of Java, in the western Sukabumi Regency of Indonesia. The Geopark is located on the border of a tectonically active zone: the subduction zone between the Eurasian plate and the Indo-Australian plate, which continue to converge at 4 mm/year. The area is characterized by a rare geological diversity that can be classified into three zones: the subduction zone uplifted rocks, the Jampang Plateau landscape and the ancient magmatic zone shifting and fore arc evolution. Evidence for a similar subduction process that occurred during the Cretaceous age (145–66 million years ago) is found in the Ciletuh area in the form of rock formations that were deposited within the deep subduction trench.</p>
+						<h2>Potensi Sektor Kelautan dan Perikanan</h2>
+						<p>Kawasan Minapolitan Perikanan Tangkap di Palabuhanratu adalah suatu kawasan pengembangan ekonomi berbasis usaha penangkapan ikan yang dikembangkan secara terintegrasi oleh pemerintah, swasta dan masyarakat untuk menciptakan iklim usaha yang lebih baik untuk pertumbuhan ekonomi wilayah, penciptaan lapangan kerja dan pendapatan masyarakat kawasan Palabuhanratu Kabupaten Sukabumi. Selain potensi perikanan laut, perikanan darat juga sangat potensial dikembangkan di Kabupaten Sukabumi. Pengembangan perikanan darat tersebar di 47 kecamatan di seluruh Kabupaten Sukabumi dengan komoditi unggulan adalah ikan mas, nila, lele dan ikan hias yang dapat diperoleh di sentra perikanan darat yaitu di Pasar Ikan Cibaraja.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                        <h2>Geopark Ciletuh-Palabuhanratu mendapat pengesahan sebagai UGG 2018</h2>
-                        <p>Geopark Ciletuh-Pelabuhanratu mendapat pengesahan sebagai bagian dari jaringan Global Geopark bersama 12 geopark lainnya dalam salah satu sidang komisi di Executive Board Unesco ke 204 di Paris, Perancis pada 14 April 2018.</p>
+                        <h2>Kecamatan Palabuhanratu merupakan salah satu dari 41 lokasi percontohan pengembangan kawasan minapolitan di Indonesia</h2>
+                        <p>Kementerian Kelautan dan Perikanan dan Center for Policy Reform (CPR) Indonesia akan mewujudkan Program Kawasan Minapolitan di berbagai daerah. Minapolitan merupakan strategi pembangunan perikanan berbasis kawasan. Peraturan Menteri Kelautan dan Perikanan Nomor 41 Tahun 2009, </p>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="colorlib-work">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-1.jpg);"></a>
-							<div class="desc">
-								<h3>Puncak Darma</h3>
-								<p>Spot tertinggi yang berada di kawasan ciletuh, yang langsung menghadap ke laut, dan hamparan sawah.</p>
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/minapolitan.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Kawasan Minapolitan</a></h2>
+												<p>Kawasan Minapolitan Perikanan Tangkap di Palabuhanratu adalah suatu kawasan pengembangan ekonomi berbasis usaha penangkapan ikan yang dikembangkan secara terintegrasi oleh pemerintah, swasta dan masyarakat untuk menciptakan iklim usaha yang lebih baik untuk pertumbuhan ekonomi wilayah, penciptaan lapangan kerja dan pendapatan masyarakat kawasan Palabuhanratu, Kabupaten Sukabumi.</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-2.jpg);"></a>
-							<div class="desc">
-								<h3>Curug Cimarinjung</h3>
-								<p>Curug yang berasal dari aliran sungai cimarinjung, dengan memiliki ketinggian 50m.</p>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-push-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-kelautan.png);"></a>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-3.jpg);"></a>
-							<div class="desc">
-								<h3>Curug Cikanteh</h3>
-								<p>Curug yang berada diatas curug cimarinjung ini memiliki aliran air yang jernih.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-4.jpg);"></a>
-							<div class="desc">
-								<h3>Panenjoan</h3>
-								<p>Titik pandang Panenjoan berada di pinggir jalan, Desa Taman Jaya, dengan ketinggian 300-an mdpl.</p>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Potensi Sektor Kelautan dan Perikanan</a></h2>
+												<p>Kabupaten Sukabumi berbatasan langsung di sebelah Selatan dengan Samudera Indonesia, dengan panjang garis pantai adalah ± 117 km yang memanjang dari wilayah kecamatan Cisolok, Cikakak, Palabuhanratu, Simpenan, Ciemas, Ciracap, Surade, Cibitung, dan Tegalbuleud. Posisi tersebut menyebabkan tingginya potensi sumber daya pesisir, perikanan dan kelautan. Adapun jenis potensi sumber daya pesisir dan kelautan yang ada antara lain : ikan laut, terumbu karang, hutan mangrove, rumput laut, penyu, bahan tambang dan mineral. Sejauh ini, pemanfaatan pesisir dan kelautan di wilayah Kabupaten Sukabumi selain dimanfaatkan untuk pariwisata pantai, juga sebagai daerah penangkapan ikan.</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

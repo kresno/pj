@@ -113,6 +113,13 @@
 								</div>
 							</div>
 						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/capaian/dashboard_full4.jpg" alt="">
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -226,6 +233,7 @@
 												<h2><a href="#">Potensi Sektor Kelautan dan Perikanan</a></h2>
 												<p>Potensi sumber daya pesisir dan kelautan yang ada antara lain : ikan laut, terumbu karang, hutan mangrove, rumput laut, penyu, bahan tambang dan mineral. Potensi tersebut sampai saat ini telah dimanfaatkan untuk pariwisata dan juga penangkapan ikan, terlebih Kecamatan Palabuhanratu, Kabupaten Sukabumi telah ditetapkan sebagai kawasan minapolitan melalui Peraturan Menteri Kelautan dan Perikanan Nomor 41 Tahun 2009.</p>
 												<a download href="download/kelautan.pdf" class="btn btn-success" download>Download Dokumen Potensi</a>
+												<a href="kelautan.php" class="btn btn-warning">Lihat Detail </a>
 											</div>
 										</div>
 									</div>
