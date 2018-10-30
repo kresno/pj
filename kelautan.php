@@ -148,8 +148,8 @@
 									<div class="col-md-12 col-md-pull-12 no-gutters">
 										<div class="display-t desc">
 											<div class="display-tc">
-												<h2><a href="#">Potensi Sektor Kelautan dan Perikanan</a></h2>
-												<p>Kabupaten Sukabumi berbatasan langsung di sebelah Selatan dengan Samudera Indonesia, dengan panjang garis pantai adalah ± 117 km yang memanjang dari wilayah kecamatan Cisolok, Cikakak, Palabuhanratu, Simpenan, Ciemas, Ciracap, Surade, Cibitung, dan Tegalbuleud. Posisi tersebut menyebabkan tingginya potensi sumber daya pesisir, perikanan dan kelautan. Adapun jenis potensi sumber daya pesisir dan kelautan yang ada antara lain : ikan laut, terumbu karang, hutan mangrove, rumput laut, penyu, bahan tambang dan mineral. Sejauh ini, pemanfaatan pesisir dan kelautan di wilayah Kabupaten Sukabumi selain dimanfaatkan untuk pariwisata pantai, juga sebagai daerah penangkapan ikan.</p>
+												<h2><a href="#">Kekayaan Sumber Daya Alam</a></h2>
+												<p>Kabupaten Sukabumi berbatasan langsung di sebelah Selatan dengan Samudera Indonesia, dengan panjang garis pantai adalah ± 117 km. Posisi tersebut menyebabkan tingginya potensi sumber daya pesisir, perikanan dan kelautan. Adapun jenis potensi sumber daya pesisir dan kelautan yang ada antara lain : ikan laut, terumbu karang, hutan mangrove, rumput laut, penyu, bahan tambang dan mineral. Sejauh ini, pemanfaatan pesisir dan kelautan di wilayah Kabupaten Sukabumi selain dimanfaatkan untuk pariwisata pantai, juga sebagai daerah penangkapan ikan.</p>
 											</div>
 										</div>
 									</div>
