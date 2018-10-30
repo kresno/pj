@@ -77,7 +77,7 @@
 					<div class="container">
 						<div class="col-md-12 col-md-offset-0">
 							<div class="animate-box">
-								<h2>Geopark Ciletuh</h2>
+								<h2>Sektor Pertanian</h2>
 							</div>
 						</div>
 					</div>
@@ -89,56 +89,116 @@
 			<div class="container">
 				<div class="row row-pb-lg">
 					<div class="col-md-6 animate-box">
-						<div class="video colorlib-video" style="background-image: url(images/bg/1.jpg);">
-							<a href="https://www.youtube.com/watch?v=5AFDpDmBpxc" class="popup-vimeo"><i class="icon-play3"></i></a>
+						<div class="video colorlib-video" style="background-image: url(images/pertanian-1.jpg);">
+							<a href="https://www.youtube.com/watch?v=ChdT-faxBE8" class="popup-vimeo"><i class="icon-play3"></i></a>
 							<div class="overlay"></div>
 						</div>
 					</div>
 					<div class="col-md-6 animate-box">
-						<h2>About Geopark Ciletuh Palabuhanratu</h2>
-						<p>Ciletuh - Palabuhanratu UNESCO Global Geopark is located on the island of Java, in the western Sukabumi Regency of Indonesia. The Geopark is located on the border of a tectonically active zone: the subduction zone between the Eurasian plate and the Indo-Australian plate, which continue to converge at 4 mm/year. The area is characterized by a rare geological diversity that can be classified into three zones: the subduction zone uplifted rocks, the Jampang Plateau landscape and the ancient magmatic zone shifting and fore arc evolution. Evidence for a similar subduction process that occurred during the Cretaceous age (145–66 million years ago) is found in the Ciletuh area in the form of rock formations that were deposited within the deep subduction trench.</p>
+						<h2>Potensi Sektor Pertanian</h2>
+						<p>Sektor pertanian merupakan salah satu sektor yang memberikan potensi cukup besar terhadap perekonomian masyarakat Kabupaten Sukabumi. Potensi pertanian di Kabupaten Sukabumi sebagian besar pada komoditas tanaman pangan yang meliputi: Padi , Jagung , Kedelai dan Ubi kayu.</p>
+						<p>Komoditas pertanian lainnya yang juga merupakan unggulan Kabupaten Sukabumi adalah komoditas hortikultura seperti : Bunga, Daun potong, Sayuran, Buah-buahan dan biofarmaka. </p>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="colorlib-work">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                        <h2>Geopark Ciletuh-Palabuhanratu mendapat pengesahan sebagai UGG 2018</h2>
-                        <p>Geopark Ciletuh-Pelabuhanratu mendapat pengesahan sebagai bagian dari jaringan Global Geopark bersama 12 geopark lainnya dalam salah satu sidang komisi di Executive Board Unesco ke 204 di Paris, Perancis pada 14 April 2018.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-1.jpg);"></a>
-							<div class="desc">
-								<h3>Puncak Darma</h3>
-								<p>Spot tertinggi yang berada di kawasan ciletuh, yang langsung menghadap ke laut, dan hamparan sawah.</p>
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-pertanian-1.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Produksi Tanaman Pangan</a></h2>
+												<p>Pertumbuhan Produksi Tanaman Pangan setiap tahunnya cukup stabil. Contohnya pada Produksi padi (sawah dan gogo) tahun 2014 sebanyak 932.770 ton dibandingkan tahun 2013 produksinya mengalami peningkatan sebesar 2,67%. Peningkatan ini diakibatkan adanya peningkatan luas panen karena tingginya penanaman pada musim tanam tahun 2013/2014.  </p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-2.jpg);"></a>
-							<div class="desc">
-								<h3>Curug Cimarinjung</h3>
-								<p>Curug yang berasal dari aliran sungai cimarinjung, dengan memiliki ketinggian 50m.</p>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-push-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-pertanian-2.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Tanaman Palawija</a></h2>
+												<p>Pada komoditas tanaman palawija, produksi unggulan Kabupaten Sukabumi adalah tanaman palawija ubi kayu yang mencapai produksi sebesar 165.520 ton dengan produktivitas mencapai 20,89 ton/ha.</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-3.jpg);"></a>
-							<div class="desc">
-								<h3>Curug Cikanteh</h3>
-								<p>Curug yang berada diatas curug cimarinjung ini memiliki aliran air yang jernih.</p>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-pertanian-3.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+											<h2><a href="#">Komoditas Sayuran</a></h2>
+											<p> pada komoditas sayuran, produksi tertinggi komoditas sayuran adalah tomat dengan produksi paling tinggi yakni sebanyak 275.590 kuintal pada tahun 2014.</p>
+											<p>Tingginya produksi tomat juga diiringi oleh tingginya produksi ketimun (264.546 kuintal) dan petsai/sawi (242.029 kuintal).</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 text-center animate-box">
-						<div class="staff-entry">
-							<a href="#" class="staff-img" style="background-image: url(images/destinasi-4.jpg);"></a>
-							<div class="desc">
-								<h3>Panenjoan</h3>
-								<p>Titik pandang Panenjoan berada di pinggir jalan, Desa Taman Jaya, dengan ketinggian 300-an mdpl.</p>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-push-12 no-gutters">
+										<a href="#" class="work-img" style="background-image: url(images/data-pertanian-4.jpg);"></a>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2><a href="#">Kawasan Budidaya Bunga dan Daun Potong</a></h2>
+												<p> Salah satu kawasan strategis cepat tumbuh adalah wilayah Sukabumi dan Sukaraja yang peruntukkannya untuk agrowisata dan pertanian. Salah satu komoditi pertanian yang juga dapat dijadikan sebagai obyek agrowisata adalah budidaya bunga dan daun potong. Penetapan komoditi ini juga seiring dengan kebiasaan masyarakat Kecamatan Sukabumi dan sekitarnya dalam kegiatan usaha taninya. Salah satu target yang ingin diwujudkan dalam Kabuddapo adalah mewujudkan kampung flori.</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -77,7 +77,7 @@
 					<div class="container">
 						<div class="col-md-12 col-md-offset-0">
 							<div class="animate-box">
-								<h2>Geopark Ciletuh</h2>
+								<h2>Sektor Industri</h2>
 							</div>
 						</div>
 					</div>
