@@ -113,7 +113,7 @@ include('../config/koneksi.php');
                                 join sasaran e on a.sasaran_id=e.id 
                                 join villages f on f.id= a.desa_id
                                 join districts g on g.id=a.kecamatan_id
-                                where user_id=$user_id";
+                                where user_id=5";
 
                         echo "<table class='table table-stripped'>";
                         echo "<thead>";
@@ -137,12 +137,12 @@ include('../config/koneksi.php');
                                     ++$id;
                                     echo "<tr>";
                                     echo "<td>".$id."</td>";
-                                    echo "<td>".$row['nama']."</td>";
-                                    echo "<td>".$row['nama']."</td>";
-                                    echo "<td>".$row['nama']."</td>";
+                                    echo "<td>".$row['nama_kawasan']."</td>";
+                                    echo "<td>".$row['nama_program']."</td>";
+                                    echo "<td>".$row['nama_sasaran']."</td>";
                                     echo "<td>".$row['kegiatan']."</td>";
                                     echo "<td>".$row['output'].' '.$row['volume'].' '.$row['satuan']."</td>";
-                                    echo "<td>".'Desa/Kel: '.$row['name'].', Kecamatan : '.$row['name']."</td>";
+                                    echo "<td>".'Desa/Kel: '.$row['name_desa'].', Kecamatan : '.$row['name_kec']."</td>";
                                     echo "<td>".$row['pagu']."</td>";
                                     echo "</tr>";
                                 }
