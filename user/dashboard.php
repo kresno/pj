@@ -49,6 +49,12 @@ include('../config/koneksi.php');
 
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
+	<!-- jQuery -->
+	<script src="../js/jquery.min.js"></script>
+
+	<!-- Data Table -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-html5-1.0.3,b-print-1.0.3,se-1.0.1/datatables.min.css"/>
+	<script type="text/javascript" src="https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-html5-1.0.3,b-print-1.0.3,se-1.0.1/datatables.min.js"></script>
 
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
@@ -71,6 +77,8 @@ include('../config/koneksi.php');
 						<div class="col-md-10 text-right menu-1">
                             <ul>
 								<li><a href="dashboard.php">Dashboard</a></li>
+								<li><a href="partisipasi.php">Partisipasi</a></li>
+								<li><a href="visualisasi.php">Visualisasi</a></li>
                                 <li class="has-dropdown">
                                     <a href="#"><?php session_start(); echo $_SESSION['fname']; ?></a>
                                     <ul class="dropdown">
@@ -115,7 +123,7 @@ include('../config/koneksi.php');
                                 join districts g on g.id=a.kecamatan_id
                                 where user_id=$user_id";
 
-                        echo "<table class='table table-stripped'>";
+                        echo "<table id='example' class='table table-stripped'>";
                         echo "<thead>";
                         echo "<tr>
                               <td> No </td>
@@ -178,8 +186,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
 	
-	<!-- jQuery -->
-	<script src="../js/jquery.min.js"></script>
+	
 	<!-- jQuery Easing -->
 	<script src="../js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
@@ -199,6 +206,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="../js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="../js/main.js"></script>
+
+	<script type="text/javascript" language="javascript" >
+	$('#example').dataTable({ 
+		dom: 'Bfrtip',
+		buttons: [
+			{
+				extend: 'excelHtml5',
+				title: 'Hasil Partisipasi',
+				text:'Export to excel'
+				//Columns to export
+				//exportOptions: {
+				//     columns: [0, 1, 2, 3,4,5,6]
+				// }
+			},
+			{
+				extend: 'pdfHtml5',
+				title: 'Hasil Partisipasi',
+				text: 'Export to PDF'
+				//Columns to export
+				//exportOptions: {
+				//     columns: [0, 1, 2, 3, 4, 5, 6]
+				//  }
+			}
+		]
+	});
+	</script>
 	</body>
 </html>
 

@@ -9,7 +9,7 @@ $password = mysqli_real_escape_string($con, $_POST['password']);
 
 $password_hash = md5($password);
 
-$sql="INSERT INTO users (fname, lname, email, telp, password, is_active, role_id) VALUES ('$fname', '$lname', '$email', '$telp', '$password_hash', '0', '3')";
+$sql="INSERT INTO users (fname, lname, email, telp, password, is_active, role_id) VALUES ('$fname', '$lname', '$email', '$telp', '$password_hash', '1', '3')";
 
 if (!mysqli_query($con,$sql)) {
     die('Error: ' . mysqli_error($con));

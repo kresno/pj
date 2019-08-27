@@ -71,6 +71,8 @@ include('../config/koneksi.php');
 						<div class="col-md-10 text-right menu-1">
                             <ul>
 								<li><a href="dashboard.php">Dashboard</a></li>
+								<li><a href="partisipasi.php">Partisipasi</a></li>
+								<li><a href="visualisasi.php">Visualisasi</a></li>
                                 <li class="has-dropdown">
                                     <a href="#"><?php session_start(); echo $_SESSION['fname']; ?></a>
                                     <ul class="dropdown">
@@ -79,7 +81,7 @@ include('../config/koneksi.php');
                                 </li>
                             </ul>
                             
-						</div>
+						</div>	
 					</div>
 				</div>
 			</div>
