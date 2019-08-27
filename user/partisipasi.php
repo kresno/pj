@@ -57,6 +57,11 @@ include('../config/koneksi.php');
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style type="text/css">
+		#map {
+		height: 400px;
+		}
+	</style>
 	</head>
 	<body>
 		
@@ -109,7 +114,7 @@ include('../config/koneksi.php');
 				<div class="row">
 					<div class="col-md-12 animate-box">
 						<h2>Form Sinergi</h2>
-						<form action="submitpartisipasi.php" method="POST">
+						<form action="submitpartisipasi.php" method="POST" enctype="multipart/form-data">
 							<div class="row form-group">
 								<div class="col-md-12 ">
 									<!-- <label for="email">Sektor</label> -->
@@ -218,7 +223,7 @@ include('../config/koneksi.php');
 							<div class="row form-group">
 								<div class="col-md-12">
                                 <!-- <label for="email">Program</label> -->
-                                    <input type="text" class="form-control" name="kegiatan" placeholder="Kegiatan">
+                                    <input type="text" class="form-control" name="kegiatan" placeholder="Kegiatan" required>
 								</div>
                             </div>
 
@@ -226,13 +231,13 @@ include('../config/koneksi.php');
 								<div class="row">
                                 <!-- <label for="email">Program</label> -->
 									<div class="col-md-6">
-										<input type="text" class="form-control" name="output" placeholder="Tolak Ukur">
+										<input type="text" class="form-control" name="output" placeholder="Tolak Ukur" required>
 									</div>
 									<div class="col-md-3">
-										<input type="text" class="form-control" name="target" placeholder="Volume">
+										<input type="text" class="form-control" name="target" placeholder="Volume" required>
 									</div>
 									<div class="col-md-3">
-										<input type="text" class="form-control" name="satuan" placeholder="Satuan(m2, dokumen, orang)">
+										<input type="text" class="form-control" name="satuan" placeholder="Satuan(m2, dokumen, orang)" required>
 									</div>
 								</div>
 							</div>
@@ -240,12 +245,68 @@ include('../config/koneksi.php');
 							<div class="row form-group">
 								<div class="col-md-12">
                                 <!-- <label for="email">Program</label> -->
-                                    <input type="number" class="form-control" name="pagu" placeholder="Pagu">
+                                    <input type="number" class="form-control" name="pagu" placeholder="Pagu" required>
 								</div>
                             </div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="lokasi">Tandai Lokasi</label>
+									<div id="map"></div>
+									<script>
+										var map;
+										function initMap() {
+										var opts = { 'center': new google.maps.LatLng(-7.0729307,106.7147456), 'zoom': 10, 'mapTypeId': google.maps.MapTypeId.ROADMAP }
+										map = new google.maps.Map(document.getElementById('map'), opts);
+										var drawingManager = new google.maps.drawing.DrawingManager({
+												drawingControl: true,
+												drawingControlOptions: {
+													position: google.maps.ControlPosition.TOP_CENTER,
+													drawingModes: [google.maps.drawing.OverlayType.MARKER]
+												}
+											});
+										drawingManager.setMap(map);
+										google.maps.event.addListener(map,'click',function(event) {
+										document.getElementById('latitude').value = event.latLng.lat();
+										document.getElementById('longitude').value = event.latLng.lng();
+										});
+										google.maps.event.addListener(drawingManager, 'markercomplete', function(marker){
+											document.getElementById('latitude').value = marker.getPosition().lat(); 
+											document.getElementById('longitude').value  = marker.getPosition().lng();
+										});
+										} 
+										google.maps.event.addDomListener(window, 'load', init_map);
+									</script>
+										
+									<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy_jOHINKraUoHzUcpoqsfMv7n9PqkZnk&language=id&region=id&libraries=drawing&callback=initMap" async defer>
+									</script>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<label for="lokasi">latitude</label>
+										<input type="text" id="latitude" name="latitude" class="form-control" readonly="true" required> 
+									</div>
+									<div class="col-md-6">
+										<label for="lokasi">longitude</label>
+										<input type="text" id="longitude" name="longitude" class="form-control" readonly="true" required>
+									</div>
+								</div>
+							</div>
 
+							<div class="row form-group">
+								<div class="col-md-12">
+                                <!-- <label for="email">Program</label> -->
+									<label for="Foto">Upload Foto</label>
+                                    <input type="file" class="form-control" name="file" required>
+								</div>
+                            </div>
+							<?php
+							echo "<script>document.writeln(lat);</script>";
+							?>
 							<div class="form-group">
-								<input type="submit" value="Submit" class="btn btn-primary">
+								<div class="col-md-12">
+									<input type="submit" value="Submit" class="btn btn-primary">
+								</div>
 							</div>
 						</form>		
 					</div>

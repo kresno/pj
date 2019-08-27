@@ -53,8 +53,8 @@ include('../config/koneksi.php');
 	<script src="../js/jquery.min.js"></script>
 
 	<!-- Data Table -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-html5-1.0.3,b-print-1.0.3,se-1.0.1/datatables.min.css"/>
-	<script type="text/javascript" src="https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,af-2.0.0,b-1.0.3,b-colvis-1.0.3,b-html5-1.0.3,b-print-1.0.3,se-1.0.1/datatables.min.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/jstree.min.js"></script>
 
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
@@ -100,7 +100,7 @@ include('../config/koneksi.php');
 					<div class="container">
 						<div class="col-md-12 col-md-offset-0">
 							<div class="animate-box">
-								<h2>Partisipasi</h2>
+								<h2>Visualisasi</h2>
 							</div>
 						</div>
 					</div>
@@ -108,60 +108,123 @@ include('../config/koneksi.php');
 			</div>
 		</section>
 
+		<?php
+			include('../config/koneksi.php');
+
+			$return_arr = array();
+
+			$sql="SELECT a.id as id_usulan, b.`id` AS id_kawasan, b.`nama_kawasan`, c.`id` AS id_sektor, c.`nama_sektor`, d.`id` AS id_program, d.`nama_program`, e.`id` AS id_sasaran, e.`nama_sasaran`, f.`id` AS id_indikator, f.`nama_indikator`, a.`kegiatan`, a.`pagu`, g.name_kec, h.name_desa
+			FROM usulan a
+			JOIN kawasan b ON a.`kawasan_id`=b.id
+			JOIN sektor c ON a.`sektor_id`=c.id
+			JOIN program d ON a.`program_id`=d.id
+			JOIN sasaran e ON a.`sasaran_id`=e.id
+			JOIN indikator_sasaran f ON a.`indikator_id`=f.id
+			join districts g on g.id=a.kecamatan_id
+			join villages h on h.id=a.desa_id
+			WHERE a.user_id=6
+			ORDER BY a.kawasan_id, a.sektor_id, a.program_id, a.sasaran_id, a.indikator_id, a.kegiatan, a.pagu";
+
+			if($result = mysqli_query($con, $sql)){
+				if(mysqli_num_rows($result) > 0){
+					while($row= mysqli_fetch_array($result)){
+						$id_usulan = $row['id_usulan'];
+						$id_kawasan = $row['id_kawasan'];
+						$nama_kawasan = $row['nama_kawasan'];
+						$id_sektor = $row['id_sektor'];
+						$nama_sektor = $row['nama_sektor'];
+						$id_program = $row['id_program'];
+						$nama_program = $row['nama_program'];
+						$id_sasaran = $row['id_sasaran'];
+						$nama_sasaran = $row['nama_sasaran'];
+						$id_indikator = $row['id_indikator'];
+						$nama_indikator = $row['nama_indikator'];
+						$kegiatan = $row['kegiatan'];
+						$pagu = $row['pagu'];
+						$kecamatan = $row['name_kec'];
+						$desa = $row['name_desa'];
+
+						$return_arr[] = array(
+							"id_usulan" => $id_usulan,
+							"id_kawasan" => $id_kawasan,
+							"nama_kawasan" => $nama_kawasan,
+							"id_sektor" => $id_sektor,
+							"nama_sektor" => $nama_sektor,
+							"id_program" => $id_program,
+							"nama_program" => $nama_program,
+							"id_sasaran" => $id_sasaran,
+							"nama_sasaran" => $nama_sasaran,
+							"id_indikator" => $id_indikator,
+							"nama_indikator" => $nama_indikator,
+							"pagu" => $pagu,
+							"kegiatan" => $kegiatan, 
+							"lokasi" => "Kecamatan: ".$kecamatan.", Desa/Kel: ".$desa
+						);
+					}
+				}
+			}
+			// echo $_GET["sektor_id"];
+		?>
+
 		<div id="colorlib-contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 animate-box">
-						<h2>Dashboard Sinergi</h2>
-                        <?php
-                        $user_id = $_SESSION['user_id'];
-                        $sql = "SELECT * from usulan a 
-                                join kawasan c on a.kawasan_id=c.id
-                                join program d on a.program_id=d.id
-                                join sasaran e on a.sasaran_id=e.id 
-                                join villages f on f.id= a.desa_id
-                                join districts g on g.id=a.kecamatan_id
-                                where user_id=$user_id";
+				<h2> Cascading Usulan Kegiatan </h2>
+				<div id="container">
+				<ul>
+				<?php
+					$id_us_temp = 0; 
+					$id_kw_temp=0;
+					$id_sek_temp=0;
+					$id_pro_temp=0;
+					$id_sas_temp=0;
+					$id_indsas_temp=0;
 
-                        echo "<table id='example' class='table table-stripped'>";
-                        echo "<thead>";
-                        echo "<tr>
-                              <td> No </td>
-                              <td> Kawasan </td>
-                              <td> Program </td>
-                              <td> Sasaran </td>
-                              <td> Kegiatan </td>
-                              <td> Output </td>
-                              <td> Lokasi </td>
-							  <td> Pagu </td>
-							  <td> Foto Pendukung </td>
-                              </tr>";
-                        echo "</thead>";
-                        echo "<tbody>";
-                        if($result = mysqli_query($con, $sql)){
-                            
-                            $id=0;
-                            if(mysqli_num_rows($result) > 0){
-                                while($row= mysqli_fetch_array($result)){
-                                    ++$id;
-                                    echo "<tr>";
-                                    echo "<td>".$id."</td>";
-                                    echo "<td>".$row['nama_kawasan']."</td>";
-                                    echo "<td>".$row['nama_program']."</td>";
-                                    echo "<td>".$row['nama_sasaran']."</td>";
-                                    echo "<td>".$row['kegiatan']."</td>";
-                                    echo "<td>".$row['output'].' '.$row['volume'].' '.$row['satuan']."</td>";
-                                    echo "<td>".'Desa/Kel: '.$row['name_desa'].', Kecamatan : '.$row['name_kec']."</td>";
-									echo "<td>".$row['pagu']."</td>";
-									echo "<td><img src='upload/".$row['foto']." ' width='50px' height='50px'></td>";
-                                    echo "</tr>";
-                                }
-                            }
-                        }
-                        echo "</tbody>";
-                        echo "</table>";
-                        ?>
-					</div>
+					foreach($return_arr as $data){
+						
+						if($id_kw_temp != $data["id_kawasan"])
+						{
+							$id_kw_temp=$data["id_kawasan"];
+							echo "<li>".$data["nama_kawasan"]."<ul>";
+						}
+						
+						if($id_sek_temp != $data["id_sektor"])
+						{
+							$id_sek_temp=$data["id_sektor"];
+							echo "<li>".$data["nama_sektor"]."<ul>";
+						}
+
+						if($id_pro_temp != $data["id_program"])
+						{
+							$id_pro_temp=$data["id_program"];
+							echo "<li>".$data["nama_program"]."<ul>";
+						}
+						
+						if($id_sas_temp != $data["id_sasaran"])
+						{
+							$id_sas_temp=$data["id_sasaran"];
+							echo "<li> Sasaran : ".$data["nama_sasaran"]."<ul>";
+						}
+
+						if($id_indsas_temp != $data["id_indikator"])
+						{
+							$id_indsas_temp=$data["id_indikator"];
+							echo "<li> Indikator Sasarannya : ".$data["nama_indikator"]."<ul>";
+						}
+						
+						
+						echo "<li> Kegiatan : ".$data["kegiatan"].", dengan Pagu :".number_format($data["pagu"])." berlokasi di ".$data["lokasi"]."</ul></ul></ul></ul>";
+						
+						
+					}
+				?>
+				</ul>
+				</div>
+				<script>
+				$(function() {
+				$('#container').jstree();
+				});
+				</script>
 				</div>
 			</div>
 		</div>
