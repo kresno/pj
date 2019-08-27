@@ -95,49 +95,126 @@
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full1.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-1.jpeg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full2.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-2.jpeg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full3.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-3.jpeg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full4.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-4.jpeg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full5.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-5.jpeg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full6.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-6.jpeg" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/capaian/dashboard_full7.jpg" alt="">
+									<img class="img-responsive" src="images/slider/slide-7.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-8.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-9.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-10.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-11.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-12.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-13.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-14.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-15.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-16.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-17.jpeg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="featured-entry">
+									<img class="img-responsive" src="images/slider/slide-18.jpeg" alt="">
 								</div>
 							</div>
 						</div>
