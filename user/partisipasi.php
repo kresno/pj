@@ -297,7 +297,7 @@ include('../config/koneksi.php');
 								<div class="col-md-12">
                                 <!-- <label for="email">Program</label> -->
 									<label for="Foto">Upload Foto</label>
-                                    <input type="file" class="form-control" name="file" required>
+                                    <input type="file" class="form-control" name="file">
 								</div>
                             </div>
 							<?php

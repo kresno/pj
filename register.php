@@ -115,6 +115,20 @@
 									<input type="text" id="telp" name="telp" class="form-control" placeholder="Nomor Telepon" required>
 								</div>
                             </div>
+
+							<div class="row form-group">
+                                <div class="col-md-12">
+                                 	<label for="email">UNsur</label>
+                                    <select name="unsur" id="unsur" class="form-control">
+                                        <option> -- Pilih Unsur -- </option>
+                                        <option value="1">Perangkat Daerah</option>
+                                        <option value="2">Masyarakat</option>
+                                        <option value="3">Akademisi</option>
+                                        <option value="4">Swasta</option>
+                                        <option value="5">Media</option>
+                                    </select>
+								</div>
+                            </div>
                             
                             <div class="row form-group">
 								<div class="col-md-12">
