@@ -118,7 +118,7 @@
 
 							<div class="row form-group">
                                 <div class="col-md-12">
-                                 	<label for="email">UNsur</label>
+                                 	<label for="email">Unsur</label>
                                     <select name="unsur" id="unsur" class="form-control">
                                         <option> -- Pilih Unsur -- </option>
                                         <option value="1">Perangkat Daerah</option>

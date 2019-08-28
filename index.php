@@ -102,13 +102,6 @@
 						<div class="item">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="featured-entry">
-									<img class="img-responsive" src="images/slider/slide-2.jpeg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-md-8 col-md-offset-2">
-								<div class="featured-entry">
 									<img class="img-responsive" src="images/slider/slide-3.jpeg" alt="">
 								</div>
 							</div>
