@@ -112,7 +112,7 @@ include('../config/koneksi.php');
 			include('../config/koneksi.php');
 
 			$return_arr = array();
-
+			$user_id = $_SESSION['user_id'];
 			$sql="SELECT a.id as id_usulan, b.`id` AS id_kawasan, b.`nama_kawasan`, c.`id` AS id_sektor, c.`nama_sektor`, d.`id` AS id_program, d.`nama_program`, e.`id` AS id_sasaran, e.`nama_sasaran`, f.`id` AS id_indikator, f.`nama_indikator`, a.`kegiatan`, a.`pagu`, g.name_kec, h.name_desa
 			FROM usulan a
 			JOIN kawasan b ON a.`kawasan_id`=b.id
@@ -122,7 +122,7 @@ include('../config/koneksi.php');
 			JOIN indikator_sasaran f ON a.`indikator_id`=f.id
 			join districts g on g.id=a.kecamatan_id
 			join villages h on h.id=a.desa_id
-			WHERE a.user_id=6
+			WHERE a.user_id=$user_id
 			ORDER BY a.kawasan_id, a.sektor_id, a.program_id, a.sasaran_id, a.indikator_id, a.kegiatan, a.pagu";
 
 			if($result = mysqli_query($con, $sql)){
