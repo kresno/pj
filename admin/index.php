@@ -76,10 +76,8 @@ include('../config/koneksi.php');
 						</div>
 						<div class="col-md-10 text-right menu-1">
                             <ul>
-								<li><a href="dashboard.php">Dashboard</a></li>
-								<li><a href="partisipasi.php">Partisipasi</a></li>
-								<li><a href="visualisasi.php">Visualisasi</a></li>
-                                <li class="has-dropdown">
+								<li><a href="index.php">Dashboard</a></li>
+								<li class="has-dropdown">
                                     <a href="#"><?php session_start(); echo $_SESSION['fname']; ?></a>
                                     <ul class="dropdown">
                                         <li><a href="../logout.php">Logout</a></li>
@@ -112,17 +110,15 @@ include('../config/koneksi.php');
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 animate-box">
-						<h2>Dashboard Sinergi</h2>
+						<h2>Dashboard Admin Sinergi</h2>
                         <?php
 						
-                        $user_id = $_SESSION['user_id'];
                         $sql = "SELECT * from usulan a 
                                 join kawasan c on a.kawasan_id=c.id
                                 join program d on a.program_id=d.id
                                 join sasaran e on a.sasaran_id=e.id 
                                 join villages f on f.id= a.desa_id
-                                join districts g on g.id=a.kecamatan_id
-                                where user_id=$user_id";
+                                join districts g on g.id=a.kecamatan_id";
 
                         echo "<table id='example' class='table table-stripped'>";
                         echo "<thead>";

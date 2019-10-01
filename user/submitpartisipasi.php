@@ -39,7 +39,7 @@ if(in_array($ekstensi, $ekstensi_diperbolehkan) === true){
             die('Error: ' . mysqli_error($con));
         }else{
             echo "<script>alert('Terimakasih telah melakukan usulan'); window.location.href='dashboard.php';</script>";
-        }
+        }  
     }else{
         echo 'UKURAN FILE TERLALU BESAR';
     }

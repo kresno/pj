@@ -60,7 +60,7 @@
 						<div class="col-md-2">
 							<div id="colorlib-logo"><a href="index.php">eSinergi</a></div>
 						</div>
-						<div class="col-md-10 text-right menu-1">
+						<div class="col-md-10 text-right menu-1">	
 							<ul>
 								<li><a href="login.php">Login</a></li>
 							</ul>
